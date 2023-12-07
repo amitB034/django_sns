@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contents %}
+<div class = 'top-page'>
+    <div class = 'top-container'>
+        <h2>SNSAPP~no-title~へようこそ</h2>
+
+        <h5>日常の緩い出来事やポジティブな出来事を発信しよう！！</h5>
+        <div class = 'logout'>
+        <h3 style = 'color: red;'>ログアウトしました</h3>
+        <button class = 'btn-auth' onClick = "location.href = '#'">トップページへ</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
